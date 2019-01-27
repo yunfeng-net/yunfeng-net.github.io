@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
 
-{% include head.html %}
+<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>{{ page.title }}</title>
+　　</head>
+　　<body>
 
-<!-- hack iOS CSS :active style -->
-<body ontouchstart="">
-
-    {% include nav.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-
-
-</body>
-
+　　　　{{ content }}
+　　</body>
 </html>
