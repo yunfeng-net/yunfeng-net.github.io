@@ -2,6 +2,9 @@
 layout: default
 description: "人生是一段旅途"
 ---
+<div id="tag-cloud">
+  {{ site | tag_cloud }}
+</div>
 {% for post in site.posts limit:32 %}
 <article class="post">
     <div class="date">
