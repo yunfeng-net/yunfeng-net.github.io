@@ -2,8 +2,10 @@
 layout: default
 description: "人生是一段旅途"
 ---
-<div id="tag-cloud">
-  {{ site | tag_cloud }}
+<div class="tags">
+{% for tag in post.tags %}
+<a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
+{% endfor %}
 </div>
 {% for post in site.posts limit:32 %}
 <article class="post">
