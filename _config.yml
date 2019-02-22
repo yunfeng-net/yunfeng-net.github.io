@@ -6,7 +6,7 @@ theme: jekyll-theme-merlot
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate jekyll-tagging]
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
