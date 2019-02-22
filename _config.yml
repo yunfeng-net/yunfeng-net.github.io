@@ -6,6 +6,8 @@ theme: jekyll-theme-merlot
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 
+plugins: [jekyll-paginate]
+
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
