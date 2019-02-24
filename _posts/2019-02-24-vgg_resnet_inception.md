@@ -106,7 +106,7 @@ class Inception_v1(nn.Module):
 
 ```
 ## 引用
-[1] https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/02-intermediate/deep_residual_network/main.py
-[2] https://github.com/pytorch/vision/blob/master/torchvision/models/vgg.py
-[3] https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
-[4] https://github.com/antspy/inception_v1.pytorch/blob/master/inception_v1.py
+1. https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/02-intermediate/deep_residual_network/main.py
+2. https://github.com/pytorch/vision/blob/master/torchvision/models/vgg.py
+3. https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
+4.https://github.com/antspy/inception_v1.pytorch/blob/master/inception_v1.py
