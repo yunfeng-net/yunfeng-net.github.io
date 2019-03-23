@@ -112,8 +112,8 @@ def Conv2d(in_channels, out_channels,kernel_size=1,padding=0,stride=1):
 结论：参数个数和精度变动不大，速度降低比较明显。
 
 ## 引用
-[1] https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/02-intermediate/deep_residual_network/main.py
-[2] https://github.com/miraclewkf/SENet-PyTorch/blob/master/se_resnet.py
+1. https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/02-intermediate/deep_residual_network/main.py
+2. https://github.com/miraclewkf/SENet-PyTorch/blob/master/se_resnet.py
 
 ## 参考文献
 *   Chollet, François. Xception: Deep Learning with Depthwise Separable Convolutions[J]. 2016.
