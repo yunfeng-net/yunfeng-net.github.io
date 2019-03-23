@@ -26,6 +26,7 @@ def conv3x3(in_channels, out_channels, stride=1, groups=1):
     return nn.Conv2d(in_channels, out_channels, kernel_size=3,
                      stride=stride, padding=1, bias=False,groups=groups)
 ```
+
 |_|参数个数(k)|GPU内存(M)|训练时间(s)|测试时间(s)|精度(%)|
 |-|-|-|-|-|-|
 |resnet14|195|617|665|0.34|87|
@@ -51,6 +52,7 @@ def conv3x3(in_channels, out_channels, stride=1, groups=1):
         out = self.layer4(out5) # back to the specified channels
         return out
 ```
+
 |_|参数个数(k)|GPU内存(M)|训练时间(s)|测试时间(s)|精度(%)|
 |-|-|-|-|-|-|
 |resnet14|195|617|665|0.34|87|
@@ -66,6 +68,7 @@ def Conv2d(in_channels, out_channels,kernel_size=1,padding=0,stride=1):
             nn.Conv2d(in_channels, out_channels,1,bias=False),
         ])
 ```
+
 |_|参数个数(k)|GPU内存(M)|训练时间(s)|测试时间(s)|精度(%)|
 |-|-|-|-|-|-|
 |resnet14|195|617|665|0.34|87|
@@ -100,6 +103,7 @@ def Conv2d(in_channels, out_channels,kernel_size=1,padding=0,stride=1):
         out = self.relu(out)
         return out
 ```
+
 |_|参数个数(k)|GPU内存(M)|训练时间(s)|测试时间(s)|精度(%)|
 |-|-|-|-|-|-|
 |resnet14|195|617|665|0.34|87|
